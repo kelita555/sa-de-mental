@@ -20,3 +20,85 @@
             justify-content: space-between;
             align-items: center;
         }
+  header h1 {
+            margin: 0;
+            font-weight: bold;
+            color: #2B5927;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #555;
+        }
+        nav a.login {
+            border: 1px solid #8DAA8F;
+            border-radius: 25px;
+            padding: 5px 15px;
+            color: #8DAA8F;
+        }
+        main {
+               padding: 20px 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        footer {
+            background: #515c5b;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+          .support-space {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #e1e8df;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .support-space h2 {
+            margin: 0;
+            color: #49613f;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        /* Exemplo para botões e links */
+        a.button {
+              background: #8DAA8F;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        a.button:hover {
+            background: #729169;
+              }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-Estar Jovem</h1>
+        <nav>
+            <a href="#">Blog</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Contato</a>
+            <a href="#" class="login">Login</a>
+            <a href="#">Cadastro</a>
+            <input type="search" placeholder="Buscar" aria-label="Buscar" />
+        </nav>
+    </header>
+     <main>
+        <section class="support-space">
+            <h2>Seu Espaço de Apoio</h2>
+            <p>Bem-estar é estar tanto com a mente quanto com o corpo em equilíbrio, compartilhando informações e inspirações para o seu bem-estar.</p>
+            <a href="#" class="button">Saiba Mais</a>
+        </section>
+        <!-- Outras seções do site podem ser adicionadas aqui -->
+    </main>
+    <footer>
+        <p>© 2025 Bem-Estar Jovem. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
